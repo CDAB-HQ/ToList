@@ -42,12 +42,12 @@ donde hay una seccion de tareas pendientes | Tareas en progreso | y Tareas compl
 - Este simbolo > aparecera para tareas pendientes, la flecha simboliza que sera empezada osease pasarla a un estado de **Tarea en progreso**
 - Este simbolo ✓ aparecera para tareas en progreso, el check o chulo simboliza la posibilidad de marcar la tarea como completada cuando el usuario lo confirme.
 - Este simbolo * * * o los famosos 3 puntos para demarcar que tiene un menu de opciones desplegables para:
-	- eliminar totalmente
-	- regresarla a tarea en progreso por que no se termino realmente
-	- regresarla a pendientes pudiendo incluso reporgramar su fecha porque se debe realizar de nuevo
+	- eliminar totalmente.
+	- regresarla a tarea en progreso por que no se termino realmente.
+	- regresarla a pendientes pudiendo incluso reprogramar su fecha porque se debe realizar de nuevo.
 	- y otras opciones escalables.
 
-basado en las convenciones de simbolos usados en el metodo Bullet Journal
+basado en las convenciones de simbolos usados en el metodo Bullet Journal.
 
 ## Interacciones
 
@@ -55,26 +55,27 @@ los simbolos se usaran para gestionar las tareas a traves de la secciones de to 
 
 ### Tarea pendiente
 
-Empezar una Tarea pendiente o emprenderla mediante el simbolo disponible > como flecha, la cual sera la unica interaccion que permitira **ponerla en progreso**, se activara facilmente quizas agregue una notificacion para confirmar si de verdad el usuario va a emprender la tarea o sin querer su dedo lo acciono. ejemplo **¿Emprenderas esta Tarea?** **SI | NO**.
-pues esto podria ser molesto si, pero tambien le da importancia y valor a cada tarea, no es toquetear y fingir que haremos todas estas tareas en progreso, que haya un esfuerzo y un cuestionamiento directo, para que sea como un ritual respetuoso hacia la tarea que el usuario se ha propuesto.
+Empezar una Tarea pendiente o emprenderla mediante el simbolo disponible > como flecha, la cual sera la unica interaccion que permitira **ponerla en progreso**, se activara facilmente quizas agregue una notificacion para confirmar si de verdad el usuario va a emprender la tarea o sin querer su dedo lo acciono por error. ejemplo **¿Emprenderas esta Tarea?** **SI | NO**.
+pues esto podria ser molesto si, pero tambien le da importancia y valor a cada tarea, no es toquetear y fingir que haremos todas estas tareas en progreso, que haya un esfuerzo y un cuestionamiento directo, para que sea un ritual respetuoso hacia la tarea que el usuario se ha propuesto.
 
-ordenar por predeterminado automaticamente las tareas segun su urgencia de fecha, y luego las que no la tienen fecha de vencimiento.
+ordenar por predeterminado automaticamente las tareas segun su urgencia de fecha y darle un color distintivo a su urgencia, y luego las que no la tienen fecha de vencimiento.
 
 ![Pasted image 20241121022404](https://github.com/user-attachments/assets/49dc5430-5b5e-4e64-b590-eade89b6cfff)
 
 
 ## Tarea en Progreso
 
-El estado de una Tarea en progreso es importante comunicarlo, con enfasis, para que el usuario lo tenga presente como su miniproyecto concurrente, tampoco es que le demos colores llamativos ni nada, solo un color de enfasis de resalto, quizas no.
+El estado de una Tarea en progreso es importante comunicarlo, con enfasis, para que el usuario lo tenga presente como su miniproyecto concurrente, tampoco es que le implementaramos colores llamativos ni nada, solo un color de enfasis de resalto, quizas no.
+
 ### Interacciones
 
-el caso y lo importante es que al tocar el simbolo de interaccion **✓** este al contrario que al anterior, no tenga un mensaje de alterta de confirmacion, por el contrario tampoco sera un simple toqueteo y de una rapida e instantanea "listo completado!" , NO, al tocar el simbolo, este se rellenara por 3 segundos o menos hasta llenar el circulo de color con una animacion durante una sensacion de sostener el boton, cuando la animacion termine, expresar con colores como verde de aprobacion o mensaje directo sin ventana emergente de "Felicidades" o "Tarea Completada", haciendola desvanecer de la seccion de **Tareas en progreso**.
+El caso y lo importante es que al tocar el simbolo de interaccion **✓** este al contrario que al anterior, no tenga un mensaje de alterta de confirmacion, por el contrario tampoco sera un simple toqueteo y de una rapida e instantanea "listo completado!" , NO, al tocar el simbolo, este se rellenara por 3 segundos o menos hasta llenar el circulo de color con una animacion durante una sensacion de sostener el boton, cuando la animacion termine, expresar con colores como verde de aprobacion o mensaje directo sin ventana emergente de "Felicidades" o "Tarea Completada", haciendola desvanecer de la seccion de **Tareas en progreso**.
 
 ¿porque hacer algo tan molesto?, no lo es, es otro ritual, ocurre que es una alternativa al error de accionar la interaccion sin haber terminado la tarea realmente, y a su ves es una autocelebracion y confirmacion con orgullo de que, oye !termine una tarea muy laboriosa! y esta animacion que me hace sostenerla 2 segundos o menos con una bonita animacion de seguido me hace reforzar la evidencia de mi progreso. lo que motivara a traves del placer del cerebro a realizar la siguiente tarea. (esta opcion puede ser desactivada pero aspiro a cobrar al usuario por efectos de celebracion mas divertidas. manteniendo la simplicidad de la aplicacion).
 
 ## Tareas Completadas
 
-en esta seccion estan las tareas completadas. es la que menos interaccion hay, pues solo tendra por cada tarea el tipico menu desplegable con opciones para reutilizar la tarea u regresarla a anteriores estados, asi mismo como eliminarla totalmente del registro. el  test no me pidio mucho en cuanto a eso. pero si pudiera lo mejoraria.
+En esta seccion estan las tareas completadas. es la que menos interaccion hay, pues solo tendra por cada tarea el tipico menu desplegable con opciones para reutilizar la tarea u regresarla a anteriores estados, asi mismo como eliminarla totalmente del registro. el  test no me pidio mucho en cuanto a eso. pero si pudiera lo mejoraria.
 
 #  Interaccion ante la validacion de los campos.
 
@@ -102,34 +103,48 @@ sea que al igual que pasa en el bullet journal, las tareas que no se puedan logr
 > **En cualquier punto debe poderse eliminar y editar la descripcion, punto**
 
 
-## Secciones de estado de Tareas,
 
-se me ocurre usar las opciones de viñetas de navegacion, para emular un tablero kanban como pasar de derecha a izquierda para cambiar las secciones sin embargo se me piden dos cosas.
- - Un listado de Tareas con cada **estado** y el resto de su informacion
- - Un resumen de las tareas pendientes, en progreso y completadas, no se especifica como mostrarla, 
-	 - pero planteo una metrica de "Hay demasiadas Tareas pendientes 😮 (color rojo)"; "Tienes varias Tareas en progreso 🧐 mirada juzgadora (color amarillo o zapote)"; "has completado una buena cantidad de tareas, sigue asi 😎 color (verde alegre)"
-	 - Tambien podria mantenerse la idea de los colores para comunicar el descuido o la buena gestion de las tareas, pero solo se comunicaria sin juzgar al usuario con simples numeros:
-		 - Pendientes (N) | En Progreso (N) | Completadas (N)
-- La metrica reconoce el dia concurrente actual o semanal ante la cantida de Tareas formuladas y su movilidad de gestion o bueno solo la cantidad, no todas las tareas las haria el mismo dia. a menos que esas tareas esten programadas para un mismo dia, se podria involucrar el color rojo de alerta. o como sea.
+Aquí tienes el texto corregido y mejor estructurado:
 
-Este Resumen se pondria al inicio superior centrado de la aplicacion sin molestar mucho, no al final. eso dependera de lo que se es conveniente pero en mi arquitectura de informacion me dice que comunicarlo al principio podria ser una buena idea con una fuente no muy explicita poco llamativa y el uso de los colores seria en la misma letra y se intensificaria segun lo que se deberia gestionar mas
-- si hay muchas tareas pendientes, intensificarlos con un color rojo y los otros concepto mantener una degradacion del color menos enfocada.
-- si hay muchas tareas en progreso enfocar con color degradado mas al centreo con color amarillo anaranjado de alerta, 
-- si hay muchas tareas completadas en su balanza semana, pues se enfatizaria el color verde a ese extrema de las tres.
+## Secciones de estado de tareas
+Se me ocurre usar las opciones de viñetas de navegación para emular un tablero Kanban, permitiendo desplazarse de derecha a izquierda para cambiar entre las secciones. Sin embargo, se solicitan dos cosas principales:
+
+Un listado de tareas con cada estado y el resto de su información.
+
+Un resumen de las tareas pendientes, en progreso y completadas. No se especifica cómo mostrarlo, pero propongo lo siguiente:
+
+Una métrica visual:
+"Hay demasiadas tareas pendientes 😮" (color rojo).
+"Tienes varias tareas en progreso 🧐" (mirada juzgadora, color amarillo o naranja).
+"Has completado una buena cantidad de tareas, sigue así 😎" (color verde alegre).
+Otra opción sería mantener la idea de los colores para comunicar la gestión de las tareas, pero sin juicios, usando simplemente números:
+Pendientes (N) | En progreso (N) | Completadas (N).
+La métrica reconoce el día actual o el período semanal, considerando la cantidad de tareas registradas y su movimiento. No todas las tareas se realizan el mismo día, pero si están programadas para una misma fecha, podría mostrarse una alerta con el color rojo.
+
+Este resumen debería colocarse en la parte superior y centrado de la aplicación, sin ser invasivo. Según mi arquitectura de información, comunicarlo al principio parece una buena idea, utilizando una fuente discreta. Los colores en el texto se intensificarían según la prioridad:
+
+Muchas tareas pendientes: Color rojo más intenso.
+Muchas tareas en progreso: Color amarillo o naranja más visible.
+Muchas tareas completadas: Color verde más destacado.
+
 
 ![Pasted image 20241121021855](https://github.com/user-attachments/assets/0f4fa766-9982-4462-a611-c10892db5443)
 
-### como cuadrar las secciones to do list?
+¿Cómo organizar las secciones de la lista de tareas?
+Dado que las secciones principales de la lista ("Pendientes", "En progreso", "Completadas") en un tablero Kanban suelen ser verticales, debemos considerar cómo señalizar la navegación entre ellas para dos escenarios:
 
-si bien el to do list, son las tres secciones que en modo de kanban es originalmente vertical, debo asegurar la señalizacion de como moverse a ellas desde la perspectiva first mobile o desde la perspectiva desktop.
-
-hay un dilema, para movil hay dos opciones.
-- 1. es scrollear verticalmente y separar las secciones con separadores horizontales, pero esta opcion sobrecarga el largor de la pagina verticalmente haciendo que las interacciones sean tediosas de ocurrir, podria apoyarse en despliegue unico de de secciones en esa forma pero se pierde mucho la magia.
-- 2. Separar las secciones verticalmente apoyandose en una especie de carrusel de componentes, pasar el dedo verticalmente de extremos laterales de la pantalla hace posible eso, o usar botones laterales muy simples y que no invadan el contenido. este modelo permite que muchas interacciones tengan sentido. y la informacion es mas organizada. ejemplo:
-	-  << ==Pendientes== | En Progreso | Completadas >>
-	-  - Tarea pendiente #1 >
-	-  - Tarea pendiente #2 >
-- sea asi tambien navegar entre secciones al tocar esas flechas laterales o las secciones directamente, las dos formas son buenas opciones igualemente.
+1. En dispositivos móviles:
+Opción 1: Desplazar verticalmente y separar las secciones con divisores horizontales. Sin embargo, esto podría hacer que la página sea demasiado larga, dificultando la interacción fluida. Una alternativa sería desplegar una sección a la vez, aunque esto podría perder el efecto visual del Kanban.
+Opción 2: Separar las secciones utilizando un carrusel de componentes. El usuario podría deslizar lateralmente con el dedo o usar botones laterales simples, que no invadan el contenido. Esto mantiene la información más organizada. Ejemplo:
+bash
+Copy code
+<< ==Pendientes== | En progreso | Completadas >>
+  - Tarea pendiente #1 >
+  - Tarea pendiente #2 >
+Esta opción permite navegar entre secciones tocando las flechas laterales o seleccionando directamente las etiquetas de las secciones.
+2. En escritorios (Desktop):
+Mantener la disposición clásica del tablero Kanban, con columnas verticales fijas y desplazamiento horizontal (scroll o flechas). Esto facilita la visibilidad simultánea de todas las tareas en cada sección.
+Espero que estas correcciones y propuestas sean útiles para tu proyecto. ¿Quieres que amplíe algún punto o que detalle algo más? 😊
 
 
 ![Pasted image 20241121075855](https://github.com/user-attachments/assets/0b319462-9577-4db5-9c8d-adf95e6634e9)
