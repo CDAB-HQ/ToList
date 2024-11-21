@@ -1,7 +1,10 @@
-![Logo web](https://github.com/user-attachments/assets/76db2dd0-6b05-4efa-9565-6199850a91f1)# ToList
-Web App to Manage tasks, in Kanban style.
+![Logo web](https://github.com/user-attachments/assets/76db2dd0-6b05-4efa-9565-6199850a91f1)
+
+# ToList Web App to Manage tasks, in Kanban style.
 
 ![Desglose](https://github.com/user-attachments/assets/5faa0555-d814-4fdf-bbff-49743017b588)
+
+
 
 La anterior fu un diagrama conceptual para la comprension de los requerimientos de la aplicacion y sus alcances
 
@@ -24,67 +27,9 @@ La anterior fu un diagrama conceptual para la comprension de los requerimientos 
 
 ## Diseño del logo.svg
 
-fuente de texto: Touvlo
-![Uploading Logo web.svg…](<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
+fuente de texto: Touvlo, con un check.
 
-<svg
-   width="137.19998mm"
-   height="30mm"
-   viewBox="0 0 137.19998 30"
-   version="1.1"
-   id="svg1"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
-   sodipodi:docname="Logo.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     inkscape:zoom="2.0485264"
-     inkscape:cx="239.44041"
-     inkscape:cy="135.46323"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
-     inkscape:clip-to-page="false" />
-  <defs
-     id="defs1" />
-  <g
-     inkscape:label="Capa 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <path
-       style="font-size:38.1px;font-family:Touvlo;-inkscape-font-specification:Touvlo;letter-spacing:-0.407458px;word-spacing:0px;opacity:0.946731;fill:#6600ff;stroke:#05010b;stroke-width:0"
-       d="M 11.16622,29.421265 V 4.4367448 H 0.74825101 V 1.2183368 H 25.007235 v 3.218408 H 14.589266 V 29.421265 Z m 33.841613,-0.74414 q -2.492871,1.116211 -5.302002,1.116211 -2.80913,0 -5.302001,-1.116211 -2.474268,-1.116211 -4.260205,-3.032373 -1.785938,-1.934766 -2.827735,-4.613672 -1.023193,-2.697509 -1.023193,-5.711279 0,-3.013769 1.023193,-5.6926752 1.041797,-2.69751 2.827735,-4.613672 1.785937,-1.934766 4.260205,-3.050977 2.492871,-1.11620998 5.302001,-1.11620998 2.809131,0 5.302002,1.11620998 2.492871,1.116211 4.278808,3.050977 1.785938,1.916162 2.827735,4.613672 1.041797,2.6789062 1.041797,5.6926752 0,3.01377 -1.041797,5.711279 -1.041797,2.678906 -2.827735,4.613672 -1.785937,1.916162 -4.278808,3.032373 z M 30.180832,15.319801 q 0,5.302002 2.530078,8.334375 2.548681,3.032373 6.994921,3.032373 4.483447,0 7.013525,-3.032373 2.548682,-3.032373 2.548682,-8.334375 0,-5.302002 -2.548682,-8.3157712 -2.530078,-3.032373 -7.013525,-3.032373 -4.44624,0 -6.994921,3.032373 -2.530078,3.0323732 -2.530078,8.3157712 z M 61.957459,1.2183368 V 26.221461 h 15.422312 v 3.199804 H 58.534409 V 1.2183368 Z M 81.236161,29.421265 V 1.2183368 h 3.42304 V 29.421265 Z m 19.107619,0.372071 q -4.929929,0 -7.832079,-2.288233 -2.90215,-2.288232 -3.57187,-6.343798 l 3.40444,-1.730127 q 0.57671,3.75791 2.54868,5.50664 1.97197,1.748731 5.599659,1.748731 1.91616,0 3.38584,-0.465088 1.46968,-0.465088 2.39985,-1.581299 0.94878,-1.116211 0.94878,-2.771924 0,-1.674316 -1.02319,-2.604492 -1.00459,-0.948779 -3.34863,-1.618505 l -5.488039,-1.562696 q -3.64629,-1.041797 -5.37642,-2.80913 -1.71152,-1.767334 -1.71152,-4.4648442 0,-3.330029 2.56728,-5.636865 2.56729,-2.32543898 6.77168,-2.32543898 3.534669,0 6.250779,1.73012598 2.73472,1.730127 4.14859,4.595069 l -3.19981,2.251025 q -1.95336,-5.45083 -7.385589,-5.45083 -2.60449,0 -4.16719,1.190625 -1.56269,1.172021 -1.56269,3.237012 0,1.525488 1.00459,2.4742672 1.02319,0.930176 3.49746,1.637109 l 5.897309,1.711524 q 3.47886,1.00459 5.02295,2.809131 1.54409,1.80454 1.54409,4.390429 0,3.795117 -2.82773,6.083349 -2.80913,2.288233 -7.49722,2.288233 z m 22.47487,-0.372071 V 4.4367448 h -10.41797 v -3.218408 h 24.25898 v 3.218408 H 126.2417 V 29.421265 Z"
-       id="text1"
-       aria-label="TOL‎‎IST" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Chulo">
-    <path
-       style="opacity:0.946731;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#05010b;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 31.97882,17.196556 6.273855,6.65345 8.924097,-13.307507 -2.585458,-3.4162112 -6.416337,13.3955162 -4.53074,-6.420226 z"
-       id="path2"
-       sodipodi:nodetypes="ccccccc" />
-  </g>
-</svg>
-
-)
+![image](https://github.com/user-attachments/assets/618ca5ee-dece-4719-87d5-87a8dde6d77c)
 
 
 # Experiencia de Usuario de ToList
@@ -115,7 +60,8 @@ pues esto podria ser molesto si, pero tambien le da importancia y valor a cada t
 
 ordenar por predeterminado automaticamente las tareas segun su urgencia de fecha, y luego las que no la tienen fecha de vencimiento.
 
-![[Pasted image 20241121022404.png]]
+![Pasted image 20241121022404](https://github.com/user-attachments/assets/49dc5430-5b5e-4e64-b590-eade89b6cfff)
+
 
 ## Tarea en Progreso
 
@@ -132,7 +78,8 @@ en esta seccion estan las tareas completadas. es la que menos interaccion hay, p
 
 #  Interaccion ante la validacion de los campos.
 
-![[Pasted image 20241121005408.png]]
+![Pasted image 20241121005346](https://github.com/user-attachments/assets/35a5cf3e-874f-44d3-bbb4-800b972ee5c3)
+
 
 se basa en To do list de micrososoft, normalmente todo list no te indica que debes escribir algo para poder hacerlo una tarea, el textbox al apretar enter o dar en en el boton de de interaccion si haber escrito un solo caracter, simplemente no hace nada, hasta que escribas algo.
 
@@ -142,7 +89,8 @@ La  fecha no se si es opcional pero no lo dejare a la suerte si la pedire, pero 
 
 ## submenu
 
-![[Pasted image 20241121005927.png]]
+![Pasted image 20241121005927](https://github.com/user-attachments/assets/2cafffee-9fe8-4c40-8da7-b3eeaf1dff68)
+
 
 el submenu se activa con el boton izquerdo en desktop, pero en movil solo con tener presionado mas de 1s la tarea, planeo que se exprese en forma de ventana emergente o modal centrado y de forma horizontal. sin opacar los demas contenidos, puesto que pidieron que se haga.
 - Editar descripcion
@@ -169,7 +117,7 @@ Este Resumen se pondria al inicio superior centrado de la aplicacion sin molesta
 - si hay muchas tareas en progreso enfocar con color degradado mas al centreo con color amarillo anaranjado de alerta, 
 - si hay muchas tareas completadas en su balanza semana, pues se enfatizaria el color verde a ese extrema de las tres.
 
-![[Pasted image 20241121021855.png]]
+![Pasted image 20241121021855](https://github.com/user-attachments/assets/0f4fa766-9982-4462-a611-c10892db5443)
 
 ### como cuadrar las secciones to do list?
 
@@ -183,8 +131,8 @@ hay un dilema, para movil hay dos opciones.
 	-  - Tarea pendiente #2 >
 - sea asi tambien navegar entre secciones al tocar esas flechas laterales o las secciones directamente, las dos formas son buenas opciones igualemente.
 
-![[Pasted image 20241121075855.png]]
 
+![Pasted image 20241121075855](https://github.com/user-attachments/assets/0b319462-9577-4db5-9c8d-adf95e6634e9)
 
 
 
